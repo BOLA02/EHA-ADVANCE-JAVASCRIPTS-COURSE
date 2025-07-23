@@ -41,4 +41,4 @@ Feel free to follow, fork, or contribute if you're on a similar path!
 ---
 ```
 
-Let me know if you want a section for badges (e.g., GitHub commit streak), or a motivational quote at the end!
+
