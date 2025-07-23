@@ -15,9 +15,7 @@ Each folder in this repo represents a specific concept, topic, or module worked 
 Each folder is named according to the topic or task covered. For example:
 
 - `eha-environment-setup` – Project setup, tooling, configuration
-- `eha-async-js` – Working with asynchronous JavaScript
-- `eha-error-handling` – Deep dive into handling errors in JS
-- `eha-data-manipulation` – Data transformation and object handling
+
 
 More folders will be added as I progress through the program.
 
