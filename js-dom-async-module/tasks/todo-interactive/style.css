@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+ul#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul#todo-list li {
+  background-color: #eee;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  color: gray;
+}
+
+.task-text {
+  flex: 1;
+  transition: color 0.3s ease;
+}
+
+.checkmark {
+  display: none;
+  color: green;
+  font-size: 18px;
+}
+
+.completed .task-text {
+  color: green;
+}
+
+.completed .checkmark {
+  display: inline;
+}
