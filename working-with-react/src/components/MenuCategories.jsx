@@ -1,15 +1,12 @@
-import React from 'react'
-
-
 const menu = [
 { category: 'Fruits', items: ['Apple', 'Banana', 'Orange'] },
 { category: 'Vegetables', items: ['Carrot', 'Spinach'] }
 ]
 
 
-export default function MenuCategories(){
-return (
-<div className="card">
+const MenuCategories = () => {
+  return (
+    <div className="card">
 <div className="section-title">Menu Categories</div>
 {menu.map(({category, items}) => (
 <section key={category} style={{marginBottom:12}}>
@@ -20,5 +17,9 @@ return (
 </section>
 ))}
 </div>
-)
+  )
 }
+
+export default MenuCategories
+
+

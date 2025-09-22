@@ -1,7 +1,9 @@
+
 const animals = ['Cat', 'Dog', 'Elephant', 'Cow', 'Eagle']
 
 
 const AnimalFilter = () => {
+    const filtered = animals.filter(a => a.startsWith('E'))
   return (
     <div className="card">
     <div className="section-title">Animals Starting with "E"</div>
@@ -13,5 +15,3 @@ const AnimalFilter = () => {
 }
 
 export default AnimalFilter
-
-

@@ -1,12 +1,10 @@
-        import React from 'react'
+const messages = []
 
 
-        const messages = []
 
-
-        export default function MessageList(){
-        return (
-        <div className="card">
+const MessageList = () => {
+  return (
+    <div className="card">
         <div className="section-title">Messages</div>
         {messages.length === 0 ? (
         <div className="empty">No new messages</div>
@@ -16,5 +14,10 @@
         </ul>
         )}
     </div>
-    )
-    }
+  )
+}
+
+export default MessageList
+
+
+       
