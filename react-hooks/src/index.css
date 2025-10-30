@@ -20,13 +20,12 @@ body {
   transition: background 0.3s ease;
 }
 
-/* Light theme background on body */
+
 .light-theme {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
 }
 
-/* Dark theme background on body */
 .dark-theme {
   background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
   min-height: 100vh;
@@ -233,7 +232,7 @@ header {
   color: #e53e3e;
 }
 
-/* Dark Mode - applies to entire body through .dark-theme wrapper */
+
 .dark-theme .header {
   border-bottom-color: rgba(255, 255, 255, 0.1);
 }
